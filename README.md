@@ -10,8 +10,14 @@ By doing so, everything will be set up for you, without having to worry about
 things such as package dependencies. You can start working on the tutorial
 notebook right away! :smile:
 
+# How to contribute
 
-## How to Set up
+## Set up
+
+### Installation 
+
+http://handbook.datalad.org/en/latest/intro/installation.html#fom-py2v3
+
 
 ### Create virtual environment with conda
 
@@ -24,7 +30,7 @@ conda env create -n dataviz_python -f ./binder/environment.yml
 To update the environment after changes were made to `./binder/environment.yml`
 
 ```
-conda env update -n dataviz_pythonv -f ./binder/environment.yml
+conda env update -n datalad-binder -f ./binder/environment.yml
 ```
 
 ## Download the required data locally
