@@ -1,5 +1,7 @@
 # Repository for template to use Binder and DataLad together via GitHub - from OpenMR Virtual 2021 
 
+## View this example
+
 To open the Jupyter Notebook in a Binder environment (set up using https://mybinder.org) click the following link:
 
 [![Binder](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/marianne-aspbury/openmr2021-dataviz-workshop-python/HEAD)
@@ -9,25 +11,9 @@ things such as package dependencies. You can start working on the tutorial
 notebook right away! :smile:
 
 
-# How to contribute
+## How to Set up
 
-## Set up
-
-### Create virtual environment
-
-#### With virtualenv
-
-```bash
-# create a virtual environment and "activate" it
-virtualenv -p /usr/bin/python3.8 envs/dataviz_python
-source envs/dataviz_python/bin/activate
-
-# install in this environment all the Python packages
-# listed in the requirements.txt file
-pip install -r requirements.txt
-```
-
-#### With conda
+### Create virtual environment with conda
 
 The first time
 
@@ -41,12 +27,11 @@ To update the environment after changes were made to `./binder/environment.yml`
 conda env update -n dataviz_pythonv -f ./binder/environment.yml
 ```
 
-## Download the required data
+## Download the required data locally
 
-<!-- TODO improve datalad install instruction -->
+<!-- TODO add more datalad set-up instruction -->
 
-We are using the fact that the openneuro datasets can be accessed through their
-siblings on github:
+For this example, we are using the fact that the openneuro datasets can be accessed through their siblings on github:
 
 https://github.com/OpenNeuroDatasets
 
@@ -58,4 +43,6 @@ datalad clone https://github.com/OpenNeuroDatasets/ds003542.git inputs/ds003542/
 datalad get inputs/ds003542/sub-01/func/sub-01_task-compL1_run-1*
 datalad get inputs/ds003542/sub-01/anat/
 ```
+## Instructions on setting-up a binder
 
+<!-- TODO add binder set-up instruction -->
