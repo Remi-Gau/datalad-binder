@@ -25,7 +25,7 @@ conda env create -n dataviz_python -f ./binder/environment.yml
 To update the environment after changes were made to `./binder/environment.yml`
 
 ```
-conda env update -n dataviz_pythonv -f ./binder/environment.yml
+conda env update -n datalad-binder -f ./binder/environment.yml
 ```
 
 ## Download the required data
