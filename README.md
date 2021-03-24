@@ -24,7 +24,7 @@ http://handbook.datalad.org/en/latest/intro/installation.html#fom-py2v3
 The first time
 
 ```
-conda env create -n dataviz_python -f ./binder/environment.yml
+conda env create -n datalad-binder -f ./binder/environment.yml
 ```
 
 To update the environment after changes were made to `./binder/environment.yml`
