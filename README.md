@@ -13,20 +13,6 @@ notebook right away! :smile:
 
 ## Set up
 
-### Create virtual environment
-
-#### With virtualenv
-
-```bash
-# create a virtual environment and "activate" it
-virtualenv -p /usr/bin/python3.8 envs/dataviz_python
-source envs/dataviz_python/bin/activate
-
-# install in this environment all the Python packages
-# listed in the requirements.txt file
-pip install -r requirements.txt
-```
-
 #### With conda
 
 The first time
