@@ -135,4 +135,7 @@ inputs/ds003542
 octave-workspace
 *.m~
 
+# system created files
+*.DS_Store
+
 

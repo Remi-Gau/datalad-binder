@@ -4,9 +4,7 @@ numpy
 matplotlib
 seaborn
 notebook
-nilearn==0.7.1
 nibabel
-nb_black==1.0.7   # to use the black linter in jupyter books
 
 datalad==0.13
 datalad-installer # to help with git-annex on Windows
