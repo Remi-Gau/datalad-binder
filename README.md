@@ -13,6 +13,8 @@ notebook right away! :smile:
 
 ## Set up
 
+### Installation 
+http://handbook.datalad.org/en/latest/intro/installation.html#fom-py2v3
 
 #### With conda
 
